@@ -5,7 +5,7 @@ export default StyleSheet.create({
         height: '10%',
         width: '100%',
         justifyContent: 'center',
-        backgroundColor: 'skyblue',
+        //backgroundColor: 'skyblue',
     },
     header: {
         marginLeft: '18%',
@@ -20,13 +20,13 @@ export default StyleSheet.create({
     },
     settingsContainer: {
         position: 'absolute',
-        left: '85%',
-        width: 35,
-        height: 35,
+        left: '87%',
+        width: 30,
+        height: 30,
         //backgroundColor: 'green',
     },
     settings: {
-        width: 35,
-        height: 35,
+        width: 30,
+        height: 30,
     }
 });
