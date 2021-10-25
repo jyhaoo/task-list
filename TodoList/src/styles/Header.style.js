@@ -1,32 +1,33 @@
 import { StyleSheet } from 'react-native';
+import { scale, verticalScale } from '../ScaleUtil';
 
 export default StyleSheet.create({
     container: {
-        height: '10%',
-        width: '100%',
+        height: verticalScale(55),
+        width: scale(380),
         justifyContent: 'center',
         //backgroundColor: 'skyblue',
     },
     header: {
-        marginLeft: '18%',
+        marginLeft: scale(70),
         fontFamily: 'Bebas Neue',
-        fontSize: 36,
-        lineHeight: 43.2,
+        fontSize: scale(36),
+        lineHeight: scale(43.2),
         color: '#BADA55',
     },
     union: {
         position: 'absolute',
-        left: '8%',
+        left: scale(30),
     },
     settingsContainer: {
         position: 'absolute',
-        left: '87%',
-        width: 30,
-        height: 30,
+        left: scale(325),
+        width: scale(30),
+        height: scale(30),
         //backgroundColor: 'green',
     },
     settings: {
-        width: 30,
-        height: 30,
+        width: scale(30),
+        height: scale(30),
     }
 });
