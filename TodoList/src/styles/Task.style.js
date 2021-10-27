@@ -22,7 +22,7 @@ export default StyleSheet.create({
         left: scale(25),
         top: verticalScale(10),
         width: scale(275),
-        fontWeight: '600',
+        fontWeight: '500',
         fontSize: scale(14),
     },
     date: {

@@ -5,7 +5,7 @@ import styles from '../styles/Footer.style';
 const Footer = ({ navigation }) => {
     return (
         <View>
-            <TouchableOpacity style={styles.container} onPress={() => console.log('GO TO ADD PAGE')}>
+            <TouchableOpacity style={styles.container} onPress={() => navigation.navigate('Add')}>
                 <Image source={require('../assets/Plus.png')} />
             </TouchableOpacity>
         </View>
